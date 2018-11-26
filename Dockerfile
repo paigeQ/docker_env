@@ -116,7 +116,8 @@ RUN pip install ipython && \
 		six \
 		sphinx \
 		wheel \
-		zmq
+		zmq \
+		pyyaml
 
 # Install Tensorflow
 RUN pip install --pre tensorflow-gpu
